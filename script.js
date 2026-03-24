@@ -21,3 +21,11 @@ function replaceTextColorGreen() {
     let elemOl = document.getElementById('ol')
     elemOl.style.color = 'green';
 }
+
+function squareNumber() {
+    let input_3 = document.getElementById('input_3');
+    input_3_text = input_3.value;
+    input_3.value = '';
+    res = isNaN(Number(input_3_text)) || Number(input_3_text)=='' ? 'В поле не число':input_3_text**2
+    alert(res);
+}
