@@ -37,4 +37,15 @@ let input_5 = document.getElementById('input_5');
 buff = input_5.value;
 input_5.value = input_4.value;
 input_4.value = buff;
+
 }
+function btn_6() {
+    document.getElementById('input_6').disabled = false;
+    document.getElementById('input_7').disabled = true;
+}
+
+function btn_7() {
+    document.getElementById('input_6').disabled = true;
+    document.getElementById('input_7').disabled = false;
+}
+
