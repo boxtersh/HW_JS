@@ -2,9 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HW_JS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div>
+        <h1>Introduction to javascript</h1>
+        <h3>Task N1</h3>
+        <div class="row_task_1">
+            <input id="input_1">
+            <button onclick="outputInputField()">Узнай что ты ввел!</button>
+        </div>
+    </div>
 
+    <div>
+        <h3>Task N2</h3>
+        <div class="row_task_1">
+            <input id="input_2">
+            <button onclick="replaceText(this)">Замени на текст из поля</button>
+        </div>
+    </div>
+
+    <div>
+        <h3>Task N3</h3>
+        <ol id="ol">
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+            <li>Элемент</li>
+        </ol>
+        <span>Замени цвет текста списка на <button id="btn_1" onclick="replaceTextColorRed()">Красный</button></span><br />
+        <span>Замени цвет текста списка на <button id="btn_2" onclick="replaceTextColorGreen()">Зеленый</button></span>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

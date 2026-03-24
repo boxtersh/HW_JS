@@ -1,0 +1,11 @@
+.row_task_1 {
+    display: inline-flex;
+}
+
+#btn_1:hover {
+  background-color: red;
+}
+
+#btn_2:hover {
+  background-color: green;
+}
