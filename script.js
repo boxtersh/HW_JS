@@ -29,3 +29,12 @@ function squareNumber() {
     res = isNaN(Number(input_3_text)) || Number(input_3_text)=='' ? 'В поле не число':input_3_text**2
     alert(res);
 }
+
+function replaceInput() {
+let buff;
+let input_4 = document.getElementById('input_4');
+let input_5 = document.getElementById('input_5');
+buff = input_5.value;
+input_5.value = input_4.value;
+input_4.value = buff;
+}
